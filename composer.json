@@ -1,0 +1,19 @@
+{
+    "name": "joao/common",
+    "description": "common lib shared by projects",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joao Martins",
+            "email": "joaopmmartins@yahoo.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Joao\\Common\\": "src/"
+        }
+    },
+    "require": {}
+}
